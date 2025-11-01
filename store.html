@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moharej Store - Premium Tech Components</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/store.css">
+</head>
+<body>
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">Moharej Store</a>
+            <nav>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+                <a href="mysite.html">Home</a>
+                <a href="#contact">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>WELCOME TO</h2>
+            <h1>PREMIUM <span>TECH STORE</span></h1>
+            <h3>Best quality components at unbeatable prices</h3>
+            <a href="#products" class="shop-btn">Start Shopping</a>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/tokyo.pk.9?mibextid=LQQJ4d" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/solymane__?igshid=YWJhMjlhZTc=" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2 class="section-title">Our Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-microchip"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Graphics Cards</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-memory"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Processors</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-keyboard"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Gaming Keyboards</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-computer-mouse"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Gaming Mice</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-chair"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Gaming Chairs</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-hard-drive"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Motherboards</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-headphones"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Headphones</h3>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <i class="fa-solid fa-laptop"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Gaming Laptops</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <i class="fa-solid fa-phone"></i>
+                <h4>Pho<span>n</span>e</h4>
+                <p>+21231843619</p>
+            </div>
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>E<span>m</span>ail</h4>
+                <p>soulaimanok@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">© 2024 <span>Soulaiman Moharej</span>. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/tokyo.pk.9?mibextid=LQQJ4d" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/solymane__?igshid=YWJhMjlhZTc=" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

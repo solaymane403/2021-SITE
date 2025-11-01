@@ -1,162 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HADDACH - Developer Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="xss.css">
-    <title>Personal Site</title>
-    
+    <link rel="stylesheet" href="css/mysite.css">
 </head>
 <body>
-
- 
-    <header>
-<a href="#" class="logo"> HADDACH</a>
-<nav class="navg">
-<a href="#All">Languages</a>
-<a href="#contact">contact</a>
-<a href="file:///C:/Users/hadik/OneDrive/Desktop/slm/dawqa/my%20project/my%20site/lonig.html" target="_blank">login</a>
-<a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/stor.html" target="_blank">My Store</a>
-
-</nav>
- 
-</header>
-   <section class="main">
-   
-       <h2>WELCOME <BR></h2>
-    
-     
-        <h1><span> Devleoper </span> .</h1>
-      <h3>I hope you like my profile enjoy</h3>
-      <a  href="#All" class="main-btn" >Look</a>
-      <div class="icons">
-        <a href="https://www.facebook.com/tokyo.pk.9?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://instagram.com/solymane__?igshid=YWJhMjlhZTc=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      </div>
-    </section>
-
-    <section class="cards" id="All">
-        <h2 class="title"> Languages</h2>
-        <div class="content">
-          <div class="card">
-            <a href="file:///C:/Users/hadik/OneDrive/Desktop/login/lonig.html"target="_blank"><div class="icone">
-                <i class="fa-solid fa-code"></i>    
-                    </div>
-                     <div class="info">
-              <h3>developer</h3>
-            </div>
-                   </a>
-            
-           
-          </div>
-          <div class="card">
-          <a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/html.html" target="_blank"><div class="icone">
-                <i class="fa-brands fa-html5"></i>           
-               </div>
-               <div class="info">
-              <h3>Html</h3>
-            </div>
-              </a>  
-            
-          </div>
-          <div class="card">
-            <a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/css.html" target="_blank">
-              <div class="icone">
-                <i class="fa-brands fa-css3-alt"></i>           </div>
-            <div class="info">
-              <h3>css</h3>
-            </div>
-            </a>
-          </div>
-          <div class="card">
-            <a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/javascript.html" target="_blank">
-              <div class="icone">
-                <i class="fa-brands fa-js"></i>            </div>
-            <div class="info">
-              <h3>js</h3>
-            </div>
-            </a>
-          </div>
-          <div class="card">
-           <a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/java.html" target="_blank">
-            <div class="icone">
-                <i class="fa-brands fa-java"></i>       
-             </div>
-            <div class="info">
-              <h3>java</h3>
-            </div>
-           </a> 
-          </div>
-          <div class="card">
-           <a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/nodejs.html" target="_blank">
-            <div class="icone">
-                <i class="fa-brands fa-node-js"></i>            </div>
-            <div class="info">
-              <h3>node.js</h3>
-            </div>
-           </a> 
-          </div>
-          <div class="card">
-           <a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/python.html" target="_blank">
-            <div class="icone">
-                <i class="fa-brands fa-python"></i>            </div>
-            <div class="info">
-              <h3>python</h3>
-            </div>
-           </a> 
-          </div>
-          <div class="card">
-            <a href="file:///C:/Users/hadik/OneDrive/Desktop/my%20site/vuejs.html" target="_blank">
-              <div class="icone">
-                <i class="fa-brands fa-vuejs"></i>            </div>
-            <div class="info">
-              <h3>vuejs</h3>
-            </div>
-            </a>
-          </div>
-          </div>
-    </section>
-
-    <section class="cards-contact" id="contact">
-      <h2 class="title"> contact</h2>
-      <div class="content">
-        <div class="card">
-          <div class="icon1">
-            <i class="fa-solid fa-phone"></i>
-          </div>
-          <div class="info">
-            <h4>Pho<span>n</span>e</h4>
-            <p>+212631843619</p>
-          </div>
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">HADDACH</a>
+            <nav>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a href="login.html">Login</a>
+                <a href="store.html">Store</a>
+            </nav>
         </div>
-        <div class="card">
-          <div class="icon1">
-            <i class="fa-solid fa-envelope"></i>
-          </div>
-          <div class="info">
-            <h4>E<span>m</span>ail</h4>
-            <P>soulaimanab3@gmail.com</P>
-          </div>
-        </div>
+    </header>
 
+    <section class="hero">
+        <div class="hero-content">
+            <h2>WELCOME</h2>
+            <h1>Full Stack Developer</h1>
+            <h3>Building modern web experiences with passion and precision</h3>
+            <a href="#skills" class="cta-btn">Explore My Work</a>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/tokyo.pk.9?mibextid=LQQJ4d" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/solymane__?igshid=YWJhMjlhZTc=" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
     </section>
 
-    <footer class="footer">
-      <p class="footer-title">Copyrights @ <span>Soulaiman HADDACH</span></p>
-      <div class="icons">
-        <a href="https://www.facebook.com/tokyo.pk.9?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://instagram.com/solymane__?igshid=YWJhMjlhZTc=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      </div>
+    <section class="skills" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Development</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-node-js"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-vuejs"></i>
+                <h3>Vue.js</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <i class="fa-solid fa-phone"></i>
+                <h4>Pho<span>n</span>e</h4>
+                <p>+212631843619</p>
+            </div>
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>E<span>m</span>ail</h4>
+                <p>soulaimanab3@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">© 2024 <span>Soulaiman HADDACH</span>. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/tokyo.pk.9?mibextid=LQQJ4d" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/solymane__?igshid=YWJhMjlhZTc=" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
     </footer>
-    
-    
 
-  
-  
-   
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
 
-
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
