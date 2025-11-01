@@ -63,7 +63,7 @@ cd haddach-portfolio
 
 If you're using VS Code:
 1. Install the "Live Server" extension
-2. Right-click on `mysite.html`
+2. Right-click on `index.html`
 3. Select "Open with Live Server"
 
 ## 🎨 Customization
@@ -98,7 +98,7 @@ body {
 Edit the contact section in each HTML file:
 ```html
 <p>+212631843619</p>
-<p>soulaimanab3@gmail.com</p>
+<p>soulaimanok@gmail.com</p>
 ```
 
 ### Add Your Images
@@ -136,17 +136,6 @@ Replace placeholder images in the `imgs/` folder:
 - Professional typography
 - Mobile-friendly interface
 
-## 📸 Screenshots
-
-### Portfolio Page
-![Portfolio](https://via.placeholder.com/400x300/8b5cf6/ffffff?text=Portfolio+Page)
-
-### Store Page
-![Store](https://via.placeholder.com/400x300/ef4444/ffffff?text=Store+Page)
-
-### Login Page
-![Login](https://via.placeholder.com/400x300/667eea/ffffff?text=Login+Page)
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -167,7 +156,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Facebook: [@tokyo.pk.9](https://www.facebook.com/tokyo.pk.9?mibextid=LQQJ4d)
 - Instagram: [@solymane__](https://instagram.com/solymane__?igshid=YWJhMjlhZTc=)
-- Email: soulaimanab3@gmail.com
+- Email: soulaimanok@gmail.com
 - Phone: +212631843619
 
 ## 🙏 Acknowledgments
