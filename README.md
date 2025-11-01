@@ -2,7 +2,6 @@
 
 A modern, responsive personal portfolio and tech store website built with HTML, CSS, and JavaScript. Features stunning animations, glassmorphic design, and a professional user interface.
 
-![Website Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=HADDACH+Portfolio)
 
 ## ✨ Features
 
@@ -35,25 +34,6 @@ A modern, responsive personal portfolio and tech store website built with HTML, 
 - **Font Awesome 6.2.1** - Icon library
 - **Google Fonts** - Poppins font family
 
-## 📁 Project Structure
-
-```
-project/
-│
-├── mysite.html          # Portfolio homepage
-├── store.html           # Store page
-├── login.html           # Login page
-│
-├── css/
-│   ├── mysite.css       # Portfolio styles
-│   ├── store.css        # Store styles
-│   └── login.css        # Login styles
-│
-└── imgs/
-    ├── background.jpg   # Portfolio background
-    ├── store-pic.jpg    # Store background
-    └── login.jpg        # Login background
-```
 
 ## 🚀 Getting Started
 
